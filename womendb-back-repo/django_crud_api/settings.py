@@ -136,7 +136,8 @@ DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 # CORS authorization
 CORS_ALLOWED_ORIGINS = [
     "http://localhost:5173",
-    "https://womendb.vercel.app"
+    "https://womendb.vercel.app",
+    "https://womendbcurrent.vercel.app/"
 ]
 
 # REST framework settings
