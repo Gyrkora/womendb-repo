@@ -7,7 +7,7 @@ export function Navigation() {
 		<NavigationContainer>
 			<Link to="/">
 				<img src={logo} alt="logo" />
-				<p>Women DB</p>
+				<p>Women DB - soy el server</p>
 			</Link>
 			{/* <Link to="/tasks-create">Link a task-create</Link> */}
 		</NavigationContainer>

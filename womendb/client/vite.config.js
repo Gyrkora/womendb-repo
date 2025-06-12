@@ -4,4 +4,8 @@ import react from '@vitejs/plugin-react'
 // https://vitejs.dev/config/
 export default defineConfig({
   plugins: [react()],
+  // build: {
+  //   outDir: '../womendb-back-repo/frontend_build/dist', // Explicitly set the output directory
+  //   emptyOutDir: true,  // Optional: Clears the output folder before building
+  // }
 })
